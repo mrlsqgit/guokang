@@ -1,0 +1,13 @@
+[2017-07-31 11:30:20] [INFO] 麦兜妇幼已经启动
+[2017-07-31 11:30:20] [INFO] feedback 测试用例开始执行！
+[2017-07-31 11:30:20] [INFO] feedback 测试用例开始执行！
+[2017-07-31 11:30:24] [INFO] 点击元素： name: 我
+[2017-07-31 11:30:31] [INFO] 点击元素： name: 意见反馈
+[2017-07-31 11:30:31] [INFO] 意见反馈
+[2017-07-31 11:30:38] [INFO] 在元素： class name: android.widget.EditText输入内容：你好，我是机器人小强，请问有什么需要帮忙的。
+[2017-07-31 11:30:39] [INFO] 点击元素： name: 提交
+[2017-07-31 11:30:39] [INFO] feedback 测试用例执行成功！
+[2017-07-31 11:30:39] [INFO] feedback 测试用例执行成功！
+[2017-07-31 11:30:39] [INFO] 执行成功的用例 = feedback
+[2017-07-31 11:30:39] [INFO] 执行成功的用例 = feedback
+[2017-07-31 11:30:42] [INFO] Excel报告已经生成，请查看：[D:\Work\appiumkangda\result\test-report\excelReports\TestReport_2017-07-31_11-30-appium-Android.xlsx]

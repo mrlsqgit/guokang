@@ -1,0 +1,24 @@
+[2017-09-04 15:42:44] [INFO] onlineVisits 测试用例开始执行！
+[2017-09-04 15:42:44] [INFO] onlineVisits 测试用例开始执行！
+[2017-09-04 15:42:44] [WARN] onlineVisits 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:44] [ERROR] [ReservationPage_001_Registration_Test] ,截图失败，原因：null
+[2017-09-04 15:42:44] [WARN] onlineVisits 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:44] [ERROR] [ReservationPage_001_Registration_Test] ,截图失败，原因：null
+[2017-09-04 15:42:44] [INFO] payNow 测试用例开始执行！
+[2017-09-04 15:42:44] [INFO] payNow 测试用例开始执行！
+[2017-09-04 15:42:44] [WARN] payNow 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:44] [ERROR] [ReservationPage_002_Unpaid_Test] ,截图失败，原因：null
+[2017-09-04 15:42:44] [WARN] payNow 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:44] [ERROR] [ReservationPage_002_Unpaid_Test] ,截图失败，原因：null
+[2017-09-04 15:42:44] [INFO] viewOrderDetails 测试用例开始执行！
+[2017-09-04 15:42:44] [INFO] viewOrderDetails 测试用例开始执行！
+[2017-09-04 15:42:44] [WARN] viewOrderDetails 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:44] [ERROR] [ReservationPage_003_ToBeUsed_Test] ,截图失败，原因：null
+[2017-09-04 15:42:44] [WARN] viewOrderDetails 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:44] [ERROR] [ReservationPage_003_ToBeUsed_Test] ,截图失败，原因：null
+[2017-09-04 15:42:44] [INFO] 被跳过的用例 = viewOrderDetails
+[2017-09-04 15:42:44] [INFO] 被跳过的用例 = payNow
+[2017-09-04 15:42:44] [INFO] 被跳过的用例 = onlineVisits
+[2017-09-04 15:42:44] [INFO] 被跳过的用例 = viewOrderDetails
+[2017-09-04 15:42:44] [INFO] 被跳过的用例 = payNow
+[2017-09-04 15:42:44] [INFO] 被跳过的用例 = onlineVisits

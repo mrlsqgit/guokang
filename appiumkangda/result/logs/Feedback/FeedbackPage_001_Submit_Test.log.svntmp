@@ -1,0 +1,9 @@
+[2017-09-04 14:49:52] [INFO] feedback 测试用例开始执行！
+[2017-09-04 14:49:52] [INFO] feedback 测试用例开始执行！
+[2017-09-04 14:49:52] [WARN] feedback 测试用例由于某些原因被跳过！
+[2017-09-04 14:49:52] [ERROR] [FeedbackPage_001_Submit_Test] ,截图失败，原因：null
+[2017-09-04 14:49:52] [WARN] feedback 测试用例由于某些原因被跳过！
+[2017-09-04 14:49:52] [ERROR] [FeedbackPage_001_Submit_Test] ,截图失败，原因：null
+[2017-09-04 14:49:52] [INFO] 被跳过的用例 = feedback
+[2017-09-04 14:49:52] [INFO] 被跳过的用例 = feedback
+[2017-09-04 14:49:56] [INFO] Excel报告已经生成，请查看：[D:\Work\appiumkangda\result\test-report\excelReports\TestReport_2017-09-04_14-49-appium-Android.xlsx]

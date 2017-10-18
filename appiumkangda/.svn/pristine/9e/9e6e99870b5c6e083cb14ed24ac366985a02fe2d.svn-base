@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [appium-Android]" parallel="tests">
+  <parameter name="appPackage" value="com.guokang.resident.gki7i522b4ite5onez"/>
+  <parameter name="elementTimeOut" value="15"/>
+  <parameter name="deviceName" value="Nexus_One"/>
+  <parameter name="appActivity" value="com.guokang.resident.gki7i522b4ite5onez.MainActivity"/>
+  <parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="platformVersion" value="4.4.2"/>
+  <parameter name="automationName" value="Appium"/>
+  <parameter name="appFilePath" value="res/properties/app.properties"/>
+  <parameter name="sleepTime" value="1"/>
+  <parameter name="unicodeKeyboard" value="true"/>
+  <parameter name="sessionOverride" value="true"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="udid" value=""/>
+  <parameter name="resetKeyboard" value="true"/>
+  <listeners>
+    <listener class-name="com.kangda.appiumkangda.plugins.excelReporter.TestResultListener"/>
+    <listener class-name="com.kangda.appiumkangda.plugins.excelReporter.ExcelReporter"/>
+  </listeners>
+  <test name="appium-test">
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.message.MessagePage_001_Send_Test"/>
+    </classes>
+  </test> <!-- appium-test -->
+</suite> <!-- Failed suite [appium-Android] -->

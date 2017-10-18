@@ -1,0 +1,9 @@
+[2017-07-31 11:28:56] [INFO] 麦兜妇幼已经启动
+[2017-07-31 11:28:56] [INFO] onlineVisits 测试用例开始执行！
+[2017-07-31 11:28:56] [INFO] onlineVisits 测试用例开始执行！
+[2017-07-31 11:29:00] [INFO] 点击元素： name: 我
+[2017-07-31 11:29:01] [INFO] 点击元素： name: 我的问诊
+[2017-07-31 11:29:17] [WARN] onlineVisits 测试用例执行失败！
+[2017-07-31 11:29:18] [INFO] [ReservationPage_001_Registration_Test] 截图成功，保存在：[ result/screenshots/ReservationPage_001_Registration_Test.png ]
+[2017-07-31 11:29:18] [WARN] onlineVisits 测试用例执行失败！
+[2017-07-31 11:29:19] [INFO] [ReservationPage_001_Registration_Test] 截图成功，保存在：[ result/screenshots/ReservationPage_001_Registration_Test.png ]

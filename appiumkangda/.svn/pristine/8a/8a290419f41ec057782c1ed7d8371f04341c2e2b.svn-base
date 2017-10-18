@@ -1,0 +1,16 @@
+[2017-07-31 11:27:53] [INFO] 麦兜妇幼已经启动
+[2017-07-31 11:27:53] [INFO] deletePatient 测试用例开始执行！
+[2017-07-31 11:27:53] [INFO] deletePatient 测试用例开始执行！
+[2017-07-31 11:27:57] [INFO] 点击元素： name: 我
+[2017-07-31 11:27:57] [INFO] 删除就诊人
+[2017-07-31 11:27:58] [INFO] 点击元素： name: 就诊人管理
+[2017-07-31 11:28:01] [INFO] 点击元素： class name: android.widget.TextView
+[2017-07-31 11:28:03] [INFO] 点击元素： name: 确定
+[2017-07-31 11:28:03] [INFO] deletePatient 测试用例执行成功！
+[2017-07-31 11:28:03] [INFO] deletePatient 测试用例执行成功！
+[2017-07-31 11:28:03] [INFO] 执行成功的用例 = updatePatient
+[2017-07-31 11:28:03] [INFO] 执行成功的用例 = addPatient
+[2017-07-31 11:28:03] [INFO] 执行成功的用例 = deletePatient
+[2017-07-31 11:28:03] [INFO] 执行成功的用例 = updatePatient
+[2017-07-31 11:28:03] [INFO] 执行成功的用例 = addPatient
+[2017-07-31 11:28:03] [INFO] 执行成功的用例 = deletePatient

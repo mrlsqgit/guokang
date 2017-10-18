@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="14" failed="0" total="14" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="appium-Android" duration-ms="10017" started-at="2017-09-04T07:42:35Z" finished-at="2017-09-04T07:42:45Z">
+    <groups>
+    </groups>
+    <test name="首页" duration-ms="3818" started-at="2017-09-04T07:42:35Z" finished-at="2017-09-04T07:42:39Z">
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test">
+        <test-method status="SKIP" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test@64bfbc86]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:39Z" finished-at="2017-09-04T15:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="onlineVisits(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test@64bfbc86]" name="onlineVisits" duration-ms="2" started-at="2017-09-04T15:42:39Z" data-provider="testData" finished-at="2017-09-04T15:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineVisits -->
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test -->
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test">
+        <test-method status="SKIP" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test@64bf3bbf]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:39Z" finished-at="2017-09-04T15:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="feedback(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test@64bf3bbf]" name="feedback" duration-ms="3" started-at="2017-09-04T15:42:39Z" data-provider="testData" finished-at="2017-09-04T15:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedback -->
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test -->
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test">
+        <test-method status="FAIL" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test@192b07fd]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:35Z" finished-at="2017-09-04T15:42:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@710416f4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:39)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:69)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:78)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:67)
+	at com.kangda.appiumkangda.utils.AppiumUtil.getDriver(AppiumUtil.java:52)
+	at com.kangda.appiumkangda.utils.SelectDriver.selectDriver(SelectDriver.java:121)
+	at com.kangda.appiumkangda.base.BasePrepare.initTest(BasePrepare.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 33 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="onlineVisits(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test@192b07fd]" name="onlineVisits" duration-ms="4" started-at="2017-09-04T15:42:39Z" data-provider="testData" finished-at="2017-09-04T15:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineVisits -->
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test -->
+    </test> <!-- 首页 -->
+    <test name="健康汇" duration-ms="2" started-at="2017-09-04T07:42:39Z" finished-at="2017-09-04T07:42:39Z">
+    </test> <!-- 健康汇 -->
+    <test name="在线问诊" duration-ms="1418" started-at="2017-09-04T07:42:39Z" finished-at="2017-09-04T07:42:40Z">
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test">
+        <test-method status="FAIL" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test@3108bc]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:39Z" finished-at="2017-09-04T15:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7636964d]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:39)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:69)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:78)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:67)
+	at com.kangda.appiumkangda.utils.AppiumUtil.getDriver(AppiumUtil.java:52)
+	at com.kangda.appiumkangda.utils.SelectDriver.selectDriver(SelectDriver.java:121)
+	at com.kangda.appiumkangda.base.BasePrepare.initTest(BasePrepare.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 33 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="onlineVisits(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test@3108bc]" name="onlineVisits" duration-ms="3" started-at="2017-09-04T15:42:40Z" data-provider="testData" finished-at="2017-09-04T15:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineVisits -->
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test">
+        <test-method status="SKIP" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test@5f9d02cb]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:40Z" finished-at="2017-09-04T15:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="onlineVisits(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test@5f9d02cb]" name="onlineVisits" duration-ms="2" started-at="2017-09-04T15:42:40Z" data-provider="testData" finished-at="2017-09-04T15:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineVisits -->
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test">
+        <test-method status="SKIP" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test@370736d9]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:40Z" finished-at="2017-09-04T15:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="onlineVisits(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test@370736d9]" name="onlineVisits" duration-ms="6" started-at="2017-09-04T15:42:40Z" data-provider="testData" finished-at="2017-09-04T15:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineVisits -->
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test -->
+    </test> <!-- 在线问诊 -->
+    <test name="就诊人" duration-ms="1218" started-at="2017-09-04T07:42:40Z" finished-at="2017-09-04T07:42:42Z">
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test">
+        <test-method status="SKIP" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test@210366b4]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:42Z" finished-at="2017-09-04T15:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="updatePatient(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test@210366b4]" name="updatePatient" duration-ms="2" started-at="2017-09-04T15:42:42Z" data-provider="testData" finished-at="2017-09-04T15:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ID=411722197303195710, NAME=李某某}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePatient -->
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test">
+        <test-method status="SKIP" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test@eec5a4a]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:42Z" finished-at="2017-09-04T15:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="deletePatient(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test@eec5a4a]" name="deletePatient" duration-ms="2" started-at="2017-09-04T15:42:42Z" data-provider="testData" finished-at="2017-09-04T15:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePatient -->
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test">
+        <test-method status="FAIL" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test@335eadca]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:40Z" finished-at="2017-09-04T15:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@17dba94b]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:39)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:69)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:78)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:67)
+	at com.kangda.appiumkangda.utils.AppiumUtil.getDriver(AppiumUtil.java:52)
+	at com.kangda.appiumkangda.utils.SelectDriver.selectDriver(SelectDriver.java:121)
+	at com.kangda.appiumkangda.base.BasePrepare.initTest(BasePrepare.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 33 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="addPatient(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test@335eadca]" name="addPatient" duration-ms="3" started-at="2017-09-04T15:42:41Z" data-provider="testData" finished-at="2017-09-04T15:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682, ID=411122198910021554, NAME=小强}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPatient -->
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test -->
+    </test> <!-- 就诊人 -->
+    <test name="我的问卷" duration-ms="1068" started-at="2017-09-04T07:42:42Z" finished-at="2017-09-04T07:42:43Z">
+      <class name="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test">
+        <test-method status="FAIL" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test@369f73a2]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:42Z" finished-at="2017-09-04T15:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@359c3292]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:39)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:69)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:78)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:67)
+	at com.kangda.appiumkangda.utils.AppiumUtil.getDriver(AppiumUtil.java:52)
+	at com.kangda.appiumkangda.utils.SelectDriver.selectDriver(SelectDriver.java:121)
+	at com.kangda.appiumkangda.base.BasePrepare.initTest(BasePrepare.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 33 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="onlineVisits(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test@369f73a2]" name="onlineVisits" duration-ms="3" started-at="2017-09-04T15:42:43Z" data-provider="testData" finished-at="2017-09-04T15:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682, CONTENT=我是问卷调查内容}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineVisits -->
+      </class> <!-- com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test -->
+    </test> <!-- 我的问卷 -->
+    <test name="预约挂号" duration-ms="1224" started-at="2017-09-04T07:42:43Z" finished-at="2017-09-04T07:42:44Z">
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test">
+        <test-method status="SKIP" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test@7b49cea0]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:44Z" finished-at="2017-09-04T15:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="viewOrderDetails(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test@7b49cea0]" name="viewOrderDetails" duration-ms="3" started-at="2017-09-04T15:42:44Z" data-provider="testData" finished-at="2017-09-04T15:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewOrderDetails -->
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test">
+        <test-method status="SKIP" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test@61f8bee4]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:44Z" finished-at="2017-09-04T15:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="payNow(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test@61f8bee4]" name="payNow" duration-ms="2" started-at="2017-09-04T15:42:44Z" data-provider="testData" finished-at="2017-09-04T15:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payNow -->
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test">
+        <test-method status="FAIL" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test@4f970963]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:43Z" finished-at="2017-09-04T15:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@590e5d60]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:39)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:69)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:78)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:67)
+	at com.kangda.appiumkangda.utils.AppiumUtil.getDriver(AppiumUtil.java:52)
+	at com.kangda.appiumkangda.utils.SelectDriver.selectDriver(SelectDriver.java:121)
+	at com.kangda.appiumkangda.base.BasePrepare.initTest(BasePrepare.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 33 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="onlineVisits(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test@4f970963]" name="onlineVisits" duration-ms="5" started-at="2017-09-04T15:42:44Z" data-provider="testData" finished-at="2017-09-04T15:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineVisits -->
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test -->
+    </test> <!-- 预约挂号 -->
+    <test name="意见反馈" duration-ms="1063" started-at="2017-09-04T07:42:44Z" finished-at="2017-09-04T07:42:45Z">
+      <class name="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test">
+        <test-method status="FAIL" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test@3dd4520b]" name="initTest" is-config="true" duration-ms="0" started-at="2017-09-04T15:42:44Z" finished-at="2017-09-04T15:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@152b7788]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:39)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:69)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:78)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:67)
+	at com.kangda.appiumkangda.utils.AppiumUtil.getDriver(AppiumUtil.java:52)
+	at com.kangda.appiumkangda.utils.SelectDriver.selectDriver(SelectDriver.java:121)
+	at com.kangda.appiumkangda.base.BasePrepare.initTest(BasePrepare.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-V7U200JF', ip: '192.168.17.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: SelectDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 33 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 47 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="feedback(java.util.Map)[pri:0, instance:com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test@3dd4520b]" name="feedback" duration-ms="2" started-at="2017-09-04T15:42:45Z" data-provider="testData" finished-at="2017-09-04T15:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PASSWORD=654321, USERNAME=18512178682, FEEDBACK=你好，我是机器人小强，请问有什么需要帮忙的。}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedback -->
+      </class> <!-- com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test -->
+    </test> <!-- 意见反馈 -->
+  </suite> <!-- appium-Android -->
+</testng-results>

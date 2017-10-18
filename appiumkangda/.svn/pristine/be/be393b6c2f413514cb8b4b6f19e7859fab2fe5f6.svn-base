@@ -1,0 +1,60 @@
+package com.kangda.appiumkangda.pageshelper;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
+
+import com.kangda.appiumkangda.pages.CommonPage;
+import com.kangda.appiumkangda.pages.HealthHuiPage;
+import com.kangda.appiumkangda.utils.AppiumUtil;
+
+/**
+ * @author jone
+ * @description 购买健康汇服务帮助类
+ * 
+ */
+
+public class HealthHuiPageHelper {
+
+	public static Logger logger = Logger.getLogger(HealthHuiPageHelper.class);
+
+	/**
+	 * @author Jone
+	 * @description 加入购物车下单操作封装
+	 * @param AppiumUtil appium api封装引用对象
+	 */
+	public static void addCart(AppiumUtil appiumUtil) {
+		logger.info("健康汇服务-加入购物车下单");
+		//点击加入购物车
+		appiumUtil.click(HealthHuiPage.HP_TEXTVIEW_ADDCART);
+		//点击确定
+		appiumUtil.click(HealthHuiPage.HP_TEXTVIEW_CONFIRM);
+	    //暂停3s
+		appiumUtil.pause(3);
+		List<WebElement> imageViews = appiumUtil.findElements(HealthHuiPage.HP_IMAGEVIEW_CARTICON);
+		//点击购物车icon
+		appiumUtil.click(imageViews.get(1));
+		//点击全选
+        appiumUtil.click(HealthHuiPage.HP_TEXTVIEW_CHECKALL);
+    	//点击结算
+        appiumUtil.click(HealthHuiPage.HP_TEXTVIEW_BALANCE);
+        //点击立即支付
+        appiumUtil.click(CommonPage.CP_TEXTVIEW_PAYNOW);
+	}
+	
+	/**
+	 * @author Jone
+	 * @description 立即购买操作封装
+	 * @param AppiumUtil appium api封装引用对象
+	 */
+	public static void buyNow(AppiumUtil appiumUtil) {
+		logger.info("健康汇服务-立即购买");
+		//点击立即购买
+		appiumUtil.click(HealthHuiPage.HP_TEXTVIEW_BUYNOW);
+		//点击确定
+		appiumUtil.click(HealthHuiPage.HP_TEXTVIEW_CONFIRM);
+        //点击立即支付
+        appiumUtil.click(CommonPage.CP_TEXTVIEW_PAYNOW);
+	}
+}

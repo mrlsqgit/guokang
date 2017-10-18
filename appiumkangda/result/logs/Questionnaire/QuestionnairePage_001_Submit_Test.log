@@ -1,0 +1,8 @@
+[2017-09-04 15:42:43] [INFO] onlineVisits 测试用例开始执行！
+[2017-09-04 15:42:43] [INFO] onlineVisits 测试用例开始执行！
+[2017-09-04 15:42:43] [WARN] onlineVisits 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:43] [ERROR] [QuestionnairePage_001_Submit_Test] ,截图失败，原因：null
+[2017-09-04 15:42:43] [WARN] onlineVisits 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:43] [ERROR] [QuestionnairePage_001_Submit_Test] ,截图失败，原因：null
+[2017-09-04 15:42:43] [INFO] 被跳过的用例 = onlineVisits
+[2017-09-04 15:42:43] [INFO] 被跳过的用例 = onlineVisits

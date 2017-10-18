@@ -1,0 +1,14 @@
+[2017-07-31 11:27:02] [INFO] 麦兜妇幼已经启动
+[2017-07-31 11:27:02] [INFO] updatePatient 测试用例开始执行！
+[2017-07-31 11:27:02] [INFO] updatePatient 测试用例开始执行！
+[2017-07-31 11:27:06] [INFO] 点击元素： name: 我
+[2017-07-31 11:27:06] [INFO] 编辑就诊人
+[2017-07-31 11:27:07] [INFO] 点击元素： name: 就诊人管理
+[2017-07-31 11:27:09] [INFO] 点击元素： name: 编辑
+[2017-07-31 11:27:21] [INFO] 清空元素： class name: android.widget.EditText上的内容
+[2017-07-31 11:27:27] [INFO] 在元素： class name: android.widget.EditText输入内容：李某某40
+[2017-07-31 11:27:38] [INFO] 清空元素： class name: android.widget.EditText上的内容
+[2017-07-31 11:27:44] [INFO] 在元素： class name: android.widget.EditText输入内容：411722197303195710
+[2017-07-31 11:27:44] [INFO] 点击元素： name: 完成
+[2017-07-31 11:27:44] [INFO] updatePatient 测试用例执行成功！
+[2017-07-31 11:27:44] [INFO] updatePatient 测试用例执行成功！

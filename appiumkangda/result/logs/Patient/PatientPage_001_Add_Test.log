@@ -1,0 +1,24 @@
+[2017-09-04 15:42:41] [INFO] addPatient 测试用例开始执行！
+[2017-09-04 15:42:42] [INFO] addPatient 测试用例开始执行！
+[2017-09-04 15:42:42] [WARN] addPatient 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:42] [ERROR] [PatientPage_001_Add_Test] ,截图失败，原因：null
+[2017-09-04 15:42:42] [WARN] addPatient 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:42] [ERROR] [PatientPage_001_Add_Test] ,截图失败，原因：null
+[2017-09-04 15:42:42] [INFO] updatePatient 测试用例开始执行！
+[2017-09-04 15:42:42] [INFO] updatePatient 测试用例开始执行！
+[2017-09-04 15:42:42] [WARN] updatePatient 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:42] [ERROR] [PatientPage_002_Update_Test] ,截图失败，原因：null
+[2017-09-04 15:42:42] [WARN] updatePatient 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:42] [ERROR] [PatientPage_002_Update_Test] ,截图失败，原因：null
+[2017-09-04 15:42:42] [INFO] deletePatient 测试用例开始执行！
+[2017-09-04 15:42:42] [INFO] deletePatient 测试用例开始执行！
+[2017-09-04 15:42:42] [WARN] deletePatient 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:42] [ERROR] [PatientPage_003_Delete_Test] ,截图失败，原因：null
+[2017-09-04 15:42:42] [WARN] deletePatient 测试用例由于某些原因被跳过！
+[2017-09-04 15:42:42] [ERROR] [PatientPage_003_Delete_Test] ,截图失败，原因：null
+[2017-09-04 15:42:42] [INFO] 被跳过的用例 = addPatient
+[2017-09-04 15:42:42] [INFO] 被跳过的用例 = updatePatient
+[2017-09-04 15:42:42] [INFO] 被跳过的用例 = deletePatient
+[2017-09-04 15:42:42] [INFO] 被跳过的用例 = addPatient
+[2017-09-04 15:42:42] [INFO] 被跳过的用例 = updatePatient
+[2017-09-04 15:42:42] [INFO] 被跳过的用例 = deletePatient

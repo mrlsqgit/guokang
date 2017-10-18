@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [appium-Android]" parallel="tests">
+  <parameter name="appPackage" value="com.guokang.resident.gkntqkcqy82qz9n7o1"/>
+  <parameter name="elementTimeOut" value="15"/>
+  <parameter name="deviceName" value="SCL-AL00"/>
+  <parameter name="appActivity" value="com.guokang.resident.gki7i522b4ite5onez.MainActivity"/>
+  <parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="platformVersion" value="5.1.1"/>
+  <parameter name="automationName" value="Appium"/>
+  <parameter name="appFilePath" value="res/properties/app.properties"/>
+  <parameter name="sleepTime" value="1"/>
+  <parameter name="unicodeKeyboard" value="true"/>
+  <parameter name="sessionOverride" value="true"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="udid" value="76P4C15929001685"/>
+  <parameter name="resetKeyboard" value="true"/>
+  <listeners>
+    <listener class-name="com.kangda.appiumkangda.plugins.excelReporter.TestResultListener"/>
+    <listener class-name="com.kangda.appiumkangda.plugins.excelReporter.ExcelReporter"/>
+  </listeners>
+  <test name="首页">
+    <packages>
+      <package name="com.kangda.appiumkangda.testcase.home"/>
+    </packages>
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test"/>
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test"/>
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test"/>
+    </classes>
+  </test> <!-- 首页 -->
+  <test name="健康汇">
+    <packages>
+      <package name="com.kangda.appiumkangda.testcase.healthHui"/>
+    </packages>
+  </test> <!-- 健康汇 -->
+  <test name="在线问诊">
+    <packages>
+      <package name="com.kangda.appiumkangda.testcase.inquiry"/>
+    </packages>
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test"/>
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test"/>
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test"/>
+    </classes>
+  </test> <!-- 在线问诊 -->
+  <test name="就诊人">
+    <packages>
+      <package name="com.kangda.appiumkangda.testcase.patient"/>
+    </packages>
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test"/>
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test"/>
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test"/>
+    </classes>
+  </test> <!-- 就诊人 -->
+  <test name="我的问卷">
+    <packages>
+      <package name="com.kangda.appiumkangda.testcase.questionnaire"/>
+    </packages>
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test"/>
+    </classes>
+  </test> <!-- 我的问卷 -->
+  <test name="预约挂号">
+    <packages>
+      <package name="com.kangda.appiumkangda.testcase.reservation"/>
+    </packages>
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test"/>
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test"/>
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test"/>
+    </classes>
+  </test> <!-- 预约挂号 -->
+  <test name="意见反馈">
+    <packages>
+      <package name="com.kangda.appiumkangda.testcase.feedback"/>
+    </packages>
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test"/>
+    </classes>
+  </test> <!-- 意见反馈 -->
+  <test name="首页(failed)" parallel="tests">
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+          <include name="onlineVisits"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test -->
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test">
+        <methods>
+          <include name="onlineVisits"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test -->
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test">
+        <methods>
+          <include name="feedback"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test -->
+      <class name="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test -->
+    </classes>
+  </test> <!-- 首页(failed) -->
+  <test name="在线问诊(failed)" parallel="tests">
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test">
+        <methods>
+          <include name="onlineVisits"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test">
+        <methods>
+          <include name="onlineVisits"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+          <include name="onlineVisits"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test -->
+      <class name="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test -->
+    </classes>
+  </test> <!-- 在线问诊(failed) -->
+  <test name="就诊人(failed)" parallel="tests">
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test">
+        <methods>
+          <include name="deletePatient"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test">
+        <methods>
+          <include name="initTest"/>
+          <include name="addPatient"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test">
+        <methods>
+          <include name="updatePatient"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test -->
+      <class name="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test -->
+      <class name="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test -->
+    </classes>
+  </test> <!-- 就诊人(failed) -->
+  <test name="我的问卷(failed)" parallel="tests">
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test -->
+      <class name="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test">
+        <methods>
+          <include name="onlineVisits"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test -->
+    </classes>
+  </test> <!-- 我的问卷(failed) -->
+  <test name="预约挂号(failed)" parallel="tests">
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test">
+        <methods>
+          <include name="viewOrderDetails"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test -->
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test">
+        <methods>
+          <include name="initTest"/>
+          <include name="onlineVisits"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test">
+        <methods>
+          <include name="payNow"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test -->
+      <class name="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test -->
+    </classes>
+  </test> <!-- 预约挂号(failed) -->
+  <test name="意见反馈(failed)" parallel="tests">
+    <classes>
+      <class name="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test -->
+      <class name="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test -->
+      <class name="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test -->
+      <class name="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+          <include name="feedback"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test -->
+      <class name="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test -->
+    </classes>
+  </test> <!-- 意见反馈(failed) -->
+</suite> <!-- Failed suite [appium-Android] -->

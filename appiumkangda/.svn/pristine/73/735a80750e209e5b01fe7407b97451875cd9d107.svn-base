@@ -1,0 +1,17 @@
+[2017-07-31 19:06:06] [INFO] 麦兜妇幼已经启动
+[2017-07-31 19:06:08] [INFO] feedback 测试用例开始执行！
+[2017-07-31 19:06:08] [INFO] feedback 测试用例开始执行！
+[2017-07-31 19:06:08] [INFO] 消息-通讯录筛选
+[2017-07-31 19:06:11] [INFO] 点击元素： name: 消息
+[2017-07-31 19:06:14] [INFO] 点击元素： class name: android.widget.ImageView
+[2017-07-31 19:06:16] [INFO] 点击元素： name: 筛选
+[2017-07-31 19:06:19] [INFO] 暂停:3秒
+[2017-07-31 19:06:23] [INFO] 点击元素： name: 问诊
+[2017-07-31 19:06:23] [INFO] By.name: 问诊元素存在
+[2017-07-31 19:06:38] [WARN] feedback 测试用例执行失败！
+[2017-07-31 19:06:39] [INFO] [MessagePage_001_Filter_Test] 截图成功，保存在：[ result/screenshots/MessagePage_001_Filter_Test.png ]
+[2017-07-31 19:06:39] [WARN] feedback 测试用例执行失败！
+[2017-07-31 19:06:39] [INFO] [MessagePage_001_Filter_Test] 截图成功，保存在：[ result/screenshots/MessagePage_001_Filter_Test.png ]
+[2017-07-31 19:06:39] [INFO] 执行失败的用例 = feedback
+[2017-07-31 19:06:40] [INFO] 执行失败的用例 = feedback
+[2017-07-31 19:06:43] [INFO] Excel报告已经生成，请查看：[D:\Work\appiumkangda\result\test-report\excelReports\TestReport_2017-07-31_19-06-appium-Android.xlsx]

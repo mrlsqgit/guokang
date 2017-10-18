@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="appium-Android" parallel="tests" thread-count="1">
+	<!--server地址 -->
+	<parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub" />
+	<!--automationName为selendroid or appium，如果sdk版本>=17请使用appium；如果sdk版本<=17请使用selendroid -->
+	<parameter name="automationName" value="Appium" />
+	<!-- 测试平台 iOS和Android -->
+	<parameter name="platformName" value="Android" />
+	<!-- 平台版本 -->
+	<parameter name="platformVersion" value="4.4.2" />
+	<!-- <parameter name="platformVersion" value="5.1.1" /> -->
+	<!-- 真机设备名字，可随意起名字，但是要有意义 -->
+	<!-- <parameter name="deviceName" value="SCL-AL00" /> -->
+	<!-- 模拟器设备名字，可随意起名字，但是要有意义 -->
+	<parameter name="deviceName" value="Nexus_One" />
+	<!-- android app路径 -->
+	<!-- <parameter name="androidAppPath" value="res/app/android/guokang-release-md.apk" 
+		/> -->
+	<!-- ios app路径 -->
+	<!-- <parameter name="iosAppPath" value="res/app/ios/xxx.app" /> -->
+	<!--app的包 -->
+	<parameter name="appPackage" value="com.guokang.resident.gki7i522b4ite5onez" />
+	<!--app的 activity -->
+	<parameter name="appActivity"
+		value="com.guokang.resident.gki7i522b4ite5onez.MainActivity" />
+	<!--是否支持unicode输入设置为true可以输入中文字符 -->
+	<parameter name="unicodeKeyboard" value="true" />
+	<!-- 重置键盘输入法 -->
+	<parameter name="resetKeyboard" value="true" />
+	<!--设备UDID iPhone真机使用或者android并行测试可以使用 华为 udid=76P4C15929001685 -->
+	<parameter name="udid" value="" />
+	<!-- 设置为true之后会覆盖当前session -->
+	<parameter name="sessionOverride" value="true" />
+	<!-- 进程等待1秒中的控制时间，单位是秒 -->
+	<parameter name="sleepTime" value="1" />
+	<!-- 页面元素15秒不出现超时时间 -->
+	<parameter name="elementTimeOut" value="15" />
+	<!-- app属性文件 -->
+	<parameter name="appFilePath" value="res/properties/app.properties" />
+
+	<test name="appium-test" preserve-order="true">
+		<classes>
+			<class
+				name="com.kangda.appiumkangda.testcase.message.MessagePage_001_Send_Test" />
+		</classes>
+	</test>
+
+	<listeners>
+		<!-- excel报告 -->
+		<listener
+			class-name="com.kangda.appiumkangda.plugins.excelReporter.TestResultListener" />
+		<listener
+			class-name="com.kangda.appiumkangda.plugins.excelReporter.ExcelReporter" />
+		<!-- html报告 <listener class-name="com.young.appiumcombat.plugins.htmlReporter.TestResultListener" 
+			/> <listener class-name="com.young.appiumcombat.plugins.htmlReporter.RetryListener" 
+			/> <listener class-name="com.young.appiumcombat.plugins.htmlReporter.PowerEmailableReporter" 
+			/> -->
+	</listeners>
+</suite> 

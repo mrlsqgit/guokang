@@ -1,0 +1,33 @@
+package com.kangda.appiumkangda.testcase.healthHui;
+
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.kangda.appiumkangda.base.BasePrepare;
+import com.kangda.appiumkangda.pages.HealthHuiPage;
+import com.kangda.appiumkangda.pages.HomePage;
+import com.kangda.appiumkangda.pageshelper.HealthHuiPageHelper;
+
+/**
+ * @author Jone
+ * @description 健康汇服务加入购物车下单
+ * */
+public class HealthHuiPage_001_buyNow_Test extends BasePrepare{
+	
+	@Test(dataProvider="testData")
+	public void addCart(Map<String, String> data){
+//		LoginPageHelper.typeloginPageInfo(appiumUtil,data.get("USERNAME"), data.get("PASSWORD"));
+		//滚动匹配健康汇
+		appiumUtil.scrollExact(HealthHuiPage.HP_TEXTVIEW_HEALTHHUI);
+		//首页点击更多进入健康汇列表
+		List<WebElement> lists = appiumUtil.findElements(HomePage.HP_TEXTVIEW_MORE);
+		appiumUtil.click(lists.get(1));
+		//点击进入服务详情
+		appiumUtil.click(HealthHuiPage.HP_TEXTVIEW_TITLE);
+		//加入购物车下单
+		HealthHuiPageHelper.buyNow(appiumUtil);
+	}
+}

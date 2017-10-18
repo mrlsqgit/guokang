@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-appium-Android">
+              <span class="suite-name border-skipped">appium-Android</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-appium-Android">
+                    <span>D:\Work\appiumkangda\runAll.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-appium-Android">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-appium-Android">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-appium-Android">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-appium-Android">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-appium-Android">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-appium-Android">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,  14 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-appium-Android" class="hide-methods skipped suite-appium-Android"> (hide)</a> <!-- hide-methods skipped suite-appium-Android -->
+                      <a href="#" panel-name="suite-appium-Android" class="show-methods skipped suite-appium-Android"> (show)</a> <!-- show-methods skipped suite-appium-Android -->
+                    </span>
+                    <div class="method-list-content skipped suite-appium-Android">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test" hash-for-method="addPatient({PASSWORD=654321, USERNAME=18512178682, ID=411122198910021554, NAME=小强})">addPatient({PASSWORD=654321, USERNAME=18512178682, ID=411122198910021554, NAME=小强})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test" hash-for-method="deletePatient({PASSWORD=654321, USERNAME=18512178682})">deletePatient({PASSWORD=654321, USERNAME=18512178682})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test" hash-for-method="feedback({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})">feedback({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test" hash-for-method="feedback({PASSWORD=654321, USERNAME=18512178682, FEEDBACK=你好，我是机器人小强，请问有什么需要帮忙的。})">feedback({PASSWORD=654321, USERNAME=18512178682, FEEDBACK=你好，我是机器人小强，请问有什么需要帮忙的。})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test" hash-for-method="onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})">onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test" hash-for-method="onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})">onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test" hash-for-method="onlineVisits({PASSWORD=654321, USERNAME=18512178682})">onlineVisits({PASSWORD=654321, USERNAME=18512178682})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test" hash-for-method="onlineVisits({PASSWORD=654321, USERNAME=18512178682})">onlineVisits({PASSWORD=654321, USERNAME=18512178682})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test" hash-for-method="onlineVisits({PASSWORD=654321, USERNAME=18512178682})">onlineVisits({PASSWORD=654321, USERNAME=18512178682})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test" hash-for-method="onlineVisits({PASSWORD=654321, USERNAME=18512178682, CONTENT=我是问卷调查内容})">onlineVisits({PASSWORD=654321, USERNAME=18512178682, CONTENT=我是问卷调查内容})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test" hash-for-method="onlineVisits({PASSWORD=654321, USERNAME=18512178682})">onlineVisits({PASSWORD=654321, USERNAME=18512178682})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test" hash-for-method="payNow({PASSWORD=654321, USERNAME=18512178682})">payNow({PASSWORD=654321, USERNAME=18512178682})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test" hash-for-method="updatePatient({ID=411722197303195710, NAME=李某某})">updatePatient({ID=411722197303195710, NAME=李某某})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium-Android" title="com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test" hash-for-method="viewOrderDetails({PASSWORD=654321, USERNAME=18512178682})">viewOrderDetails({PASSWORD=654321, USERNAME=18512178682})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-appium-Android -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-appium-Android" class="panel appium-Android">
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPatient({PASSWORD=654321, USERNAME=18512178682, ID=411122198910021554, NAME=小强})">
+                  </a> <!-- addPatient({PASSWORD=654321, USERNAME=18512178682, ID=411122198910021554, NAME=小强}) -->
+                  <span class="method-name">addPatient</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682, ID=411122198910021554, NAME=小强})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePatient({ID=411722197303195710, NAME=李某某})">
+                  </a> <!-- updatePatient({ID=411722197303195710, NAME=李某某}) -->
+                  <span class="method-name">updatePatient</span>
+                  <span class="parameters">({ID=411722197303195710, NAME=李某某})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feedback({PASSWORD=654321, USERNAME=18512178682, FEEDBACK=你好，我是机器人小强，请问有什么需要帮忙的。})">
+                  </a> <!-- feedback({PASSWORD=654321, USERNAME=18512178682, FEEDBACK=你好，我是机器人小强，请问有什么需要帮忙的。}) -->
+                  <span class="method-name">feedback</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682, FEEDBACK=你好，我是机器人小强，请问有什么需要帮忙的。})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="payNow({PASSWORD=654321, USERNAME=18512178682})">
+                  </a> <!-- payNow({PASSWORD=654321, USERNAME=18512178682}) -->
+                  <span class="method-name">payNow</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feedback({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})">
+                  </a> <!-- feedback({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone}) -->
+                  <span class="method-name">feedback</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewOrderDetails({PASSWORD=654321, USERNAME=18512178682})">
+                  </a> <!-- viewOrderDetails({PASSWORD=654321, USERNAME=18512178682}) -->
+                  <span class="method-name">viewOrderDetails</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})">
+                  </a> <!-- onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone}) -->
+                  <span class="method-name">onlineVisits</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePatient({PASSWORD=654321, USERNAME=18512178682})">
+                  </a> <!-- deletePatient({PASSWORD=654321, USERNAME=18512178682}) -->
+                  <span class="method-name">deletePatient</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onlineVisits({PASSWORD=654321, USERNAME=18512178682})">
+                  </a> <!-- onlineVisits({PASSWORD=654321, USERNAME=18512178682}) -->
+                  <span class="method-name">onlineVisits</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})">
+                  </a> <!-- onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone}) -->
+                  <span class="method-name">onlineVisits</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onlineVisits({PASSWORD=654321, USERNAME=18512178682})">
+                  </a> <!-- onlineVisits({PASSWORD=654321, USERNAME=18512178682}) -->
+                  <span class="method-name">onlineVisits</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onlineVisits({PASSWORD=654321, USERNAME=18512178682})">
+                  </a> <!-- onlineVisits({PASSWORD=654321, USERNAME=18512178682}) -->
+                  <span class="method-name">onlineVisits</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onlineVisits({PASSWORD=654321, USERNAME=18512178682})">
+                  </a> <!-- onlineVisits({PASSWORD=654321, USERNAME=18512178682}) -->
+                  <span class="method-name">onlineVisits</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+          <div class="suite-appium-Android-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onlineVisits({PASSWORD=654321, USERNAME=18512178682, CONTENT=我是问卷调查内容})">
+                  </a> <!-- onlineVisits({PASSWORD=654321, USERNAME=18512178682, CONTENT=我是问卷调查内容}) -->
+                  <span class="method-name">onlineVisits</span>
+                  <span class="parameters">({PASSWORD=654321, USERNAME=18512178682, CONTENT=我是问卷调查内容})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium-Android-class-skipped -->
+        </div> <!-- panel appium-Android -->
+        <div panel-name="test-xml-appium-Android" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Work\appiumkangda\runAll.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;appium-Android&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;appPackage&quot; value=&quot;com.guokang.resident.gkntqkcqy82qz9n7o1&quot;/&gt;
+  &lt;parameter name=&quot;elementTimeOut&quot; value=&quot;15&quot;/&gt;
+  &lt;parameter name=&quot;deviceName&quot; value=&quot;SCL-AL00&quot;/&gt;
+  &lt;parameter name=&quot;appActivity&quot; value=&quot;com.guokang.resident.gki7i522b4ite5onez.MainActivity&quot;/&gt;
+  &lt;parameter name=&quot;serverURL&quot; value=&quot;http://127.0.0.1:4723/wd/hub&quot;/&gt;
+  &lt;parameter name=&quot;platformVersion&quot; value=&quot;5.1.1&quot;/&gt;
+  &lt;parameter name=&quot;automationName&quot; value=&quot;Appium&quot;/&gt;
+  &lt;parameter name=&quot;appFilePath&quot; value=&quot;res/properties/app.properties&quot;/&gt;
+  &lt;parameter name=&quot;sleepTime&quot; value=&quot;1&quot;/&gt;
+  &lt;parameter name=&quot;unicodeKeyboard&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;sessionOverride&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+  &lt;parameter name=&quot;udid&quot; value=&quot;76P4C15929001685&quot;/&gt;
+  &lt;parameter name=&quot;resetKeyboard&quot; value=&quot;true&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.kangda.appiumkangda.plugins.excelReporter.TestResultListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.kangda.appiumkangda.plugins.excelReporter.ExcelReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;首页&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.kangda.appiumkangda.testcase.home&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test&quot;/&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test&quot;/&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 首页 --&gt;
+  &lt;test name=&quot;健康汇&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.kangda.appiumkangda.testcase.healthHui&quot;/&gt;
+    &lt;/packages&gt;
+  &lt;/test&gt; &lt;!-- 健康汇 --&gt;
+  &lt;test name=&quot;在线问诊&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.kangda.appiumkangda.testcase.inquiry&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test&quot;/&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test&quot;/&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 在线问诊 --&gt;
+  &lt;test name=&quot;就诊人&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.kangda.appiumkangda.testcase.patient&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test&quot;/&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test&quot;/&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 就诊人 --&gt;
+  &lt;test name=&quot;我的问卷&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.kangda.appiumkangda.testcase.questionnaire&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 我的问卷 --&gt;
+  &lt;test name=&quot;预约挂号&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.kangda.appiumkangda.testcase.reservation&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test&quot;/&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test&quot;/&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 预约挂号 --&gt;
+  &lt;test name=&quot;意见反馈&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.kangda.appiumkangda.testcase.feedback&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 意见反馈 --&gt;
+&lt;/suite&gt; &lt;!-- appium-Android --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-appium-Android" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for appium-Android</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">首页 (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">健康汇 (0 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">在线问诊 (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">就诊人 (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">我的问卷 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">预约挂号 (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">意见反馈 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-appium-Android" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for appium-Android</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-appium-Android" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for appium-Android</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_appium-Android');
+function tableData_appium-Android() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'onlineVisits')
+data.setCell(0, 2, 'com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test')
+data.setCell(0, 3, 6);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'onlineVisits')
+data.setCell(1, 2, 'com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'onlineVisits')
+data.setCell(2, 2, 'com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'feedback')
+data.setCell(3, 2, 'com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'onlineVisits')
+data.setCell(4, 2, 'com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addPatient')
+data.setCell(5, 2, 'com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'onlineVisits')
+data.setCell(6, 2, 'com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'viewOrderDetails')
+data.setCell(7, 2, 'com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test')
+data.setCell(7, 3, 3);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'onlineVisits')
+data.setCell(8, 2, 'com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'onlineVisits')
+data.setCell(9, 2, 'com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'updatePatient')
+data.setCell(10, 2, 'com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deletePatient')
+data.setCell(11, 2, 'com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'payNow')
+data.setCell(12, 2, 'com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'feedback')
+data.setCell(13, 2, 'com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test')
+data.setCell(13, 3, 2);
+window.suiteTableData['appium-Android']= { tableData: data, tableDiv: 'times-div-appium-Android'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 42 ms</span>
+              <div id="times-div-appium-Android">
+              </div> <!-- times-div-appium-Android -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-appium-Android" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for appium-Android</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-appium-Android" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-appium-Android" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.home.HomePage_001_OnlineVisits_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initTest(org.testng.TestRunner@710416f4)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</span>
+                <span class="method-start">3633 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.home.HomePage_001_Registration_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">onlineVisits({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</span>
+                <span class="method-start">3698 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.home.HomePage_001_Search_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">feedback({PASSWORD=654321, USERNAME=18512178682, DOCTORNAME=jone})</span>
+                <span class="method-start">3785 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.inquiry.InquiryPage_001_OnlineVisits_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initTest(org.testng.TestRunner@7636964d)</span>
+                <span class="method-start">3892 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">onlineVisits({PASSWORD=654321, USERNAME=18512178682})</span>
+                <span class="method-start">5009 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.inquiry.InquiryPage_002_Unpaid_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">onlineVisits({PASSWORD=654321, USERNAME=18512178682})</span>
+                <span class="method-start">5222 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.inquiry.InquiryPage_003_ToBeUsed_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">onlineVisits({PASSWORD=654321, USERNAME=18512178682})</span>
+                <span class="method-start">5300 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.patient.PatientPage_001_Add_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initTest(org.testng.TestRunner@17dba94b)</span>
+                <span class="method-start">5340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addPatient({PASSWORD=654321, USERNAME=18512178682, ID=411122198910021554, NAME=小强})</span>
+                <span class="method-start">6417 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.patient.PatientPage_002_Update_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">updatePatient({ID=411722197303195710, NAME=李某某})</span>
+                <span class="method-start">6476 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.patient.PatientPage_003_Delete_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deletePatient({PASSWORD=654321, USERNAME=18512178682})</span>
+                <span class="method-start">6552 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.questionnaire.QuestionnairePage_001_Submit_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initTest(org.testng.TestRunner@359c3292)</span>
+                <span class="method-start">6601 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">onlineVisits({PASSWORD=654321, USERNAME=18512178682, CONTENT=我是问卷调查内容})</span>
+                <span class="method-start">7656 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.reservation.ReservationPage_001_Registration_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initTest(org.testng.TestRunner@590e5d60)</span>
+                <span class="method-start">7692 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">onlineVisits({PASSWORD=654321, USERNAME=18512178682})</span>
+                <span class="method-start">8789 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.reservation.ReservationPage_002_Unpaid_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">payNow({PASSWORD=654321, USERNAME=18512178682})</span>
+                <span class="method-start">8853 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.reservation.ReservationPage_003_ToBeUsed_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">viewOrderDetails({PASSWORD=654321, USERNAME=18512178682})</span>
+                <span class="method-start">8910 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kangda.appiumkangda.testcase.feedback.FeedbackPage_001_Submit_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initTest(org.testng.TestRunner@152b7788)</span>
+                <span class="method-start">8941 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">feedback({PASSWORD=654321, USERNAME=18512178682, FEEDBACK=你好，我是机器人小强，请问有什么需要帮忙的。})</span>
+                <span class="method-start">9996 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
