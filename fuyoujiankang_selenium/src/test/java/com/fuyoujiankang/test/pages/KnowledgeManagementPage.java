@@ -18,7 +18,7 @@ public class KnowledgeManagementPage {
     /**
      * 标签输入框
      */
-    public static final By KP_DIV_TAG = By.xpath("//*[@id='area']/div[1]/div/div[2]/div[1]/div[2]/div/div/div/div");
+    public static final By KP_DIV_TAG = By.id("tagNames2");
     /**
      * 选择标签
      */
@@ -32,23 +32,23 @@ public class KnowledgeManagementPage {
      */
     public static final By KP_SELECT_TYPE = By
             .xpath("//*[@id='area']/div[1]/div/div[2]/div[2]/div[2]/div/span/span/ul");
-    public static final By KP_CHECKBOX_TYPE = By.xpath("//*[@id='area']/div[5]/div/div/div/ul/li[8]/span[2]/span");
+    public static final By KP_CHECKBOX_TYPE = By.className("ant-select-tree-checkbox");
     /**
      * 学科
      */
     public static final By KP_SELECT_SUBJECT = By
             .xpath("//*[@id='area']/div[1]/div/div[3]/div[2]/div[2]/div/span/span/ul");
-    public static final By KP_CHECKBOX_SUBJECT = By.xpath("//*[@id='area']/div[7]/div/div/div/ul/li[2]/span[2]/span");
+    public static final By KP_CHECKBOX_SUBJECT = By.className("ant-select-tree-checkbox-inner");
     /**
      * 选择受众人群
      */
     public static final By KP_SELECT_TARGETUSER = By
             .xpath("//*[@id='area']/div[1]/div/div[3]/div[1]/div[2]/div/span/span/ul");
-    public static final By KP_CHECKBOX_TARGETUSER = By
-            .xpath("//*[@id='area']/div[6]/div/div/div/ul/li[11]/span[2]/span");
+    public static final By KP_CHECKBOX_TARGETUSER = By.className("ant-select-tree-checkbox");
     /**
      * 选择学科
      */
+    public static final By KP_LABEL_SUBJECT = By.xpath("//*[@id=\"area\"]/div[1]/div/div[3]/div[2]/div[1]/label");
     public static final By KP_UL_SUBJECT = By
             .xpath("//*[@id=\"area\"]/div[1]/div/div[3]/div[2]/div[2]/div/span/span/ul");
     public static final By KP_SPAN_SUBJECT = By.className("ant-select-tree-checkbox-inner");
@@ -87,7 +87,8 @@ public class KnowledgeManagementPage {
     /**
      * 收藏量
      */
-    public static final By KP_INPUT_FAVORITEBASENUM = By.id("favoriteBaseNum");  /**
+    public static final By KP_INPUT_FAVORITEBASENUM = By.id("favoriteBaseNum");
+    /**
      * 浏览量
      */
     public static final By KP_INPUT_PV = By.id("browseBaseNum");
@@ -124,13 +125,13 @@ public class KnowledgeManagementPage {
      * 相关推荐 - 选择健康汇
      */
     public static final By KP_DIV_HEALTHHUI = By.xpath("//*[@id=\"area\"]/div[3]/div[6]/div[2]/div/div[2]/div/div");
-    public static final By KP_LI_HEALTHHUI = By.xpath("//li[contains(.,'健康汇')]");
+    public static final By KP_LI_HEALTHHUI = By.xpath("/html/body/div[3]/div/div/div/ul/li[1]");
     public static final By KP_DIV_HEALTHHUI2 = By.xpath("//*[@id=\"area\"]/div[3]/div[6]/div[2]/div/div[3]/div/div");
-    public static final By KP_LI_HEALTHHUI2 = By.xpath("/html/body/div[3]/div/div/div/ul/li[1]");
+    public static final By KP_LI_HEALTHHUI2 = By.xpath("/html/body/div[4]/div/div/div/ul/li[1]");
     /**
      * 推荐banner图
      */
-    public static final By KP_INPUT_BANNER = By.xpath("/html/body/div[3]/div/div/div/ul/li[1]");
+    public static final By KP_INPUT_BANNER = By.xpath("//*[@id=\"recommendBanner\"]/span/div[2]/span/input");
     /**
      * 备注
      */

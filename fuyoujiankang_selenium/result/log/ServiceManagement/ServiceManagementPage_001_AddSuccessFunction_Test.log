@@ -1,0 +1,30 @@
+[2018-01-16 17:52:19] [INFO] 当前操作系统是:[Windows 10]
+[2018-01-16 17:52:19] [INFO] 启动测试浏览器：[chrome]
+[2018-01-16 17:52:23] [INFO] 最大化浏览器:chrome
+[2018-01-16 17:52:30] [INFO] 打开测试页面:[http://192.168.16.217:9999]
+[2018-01-16 17:52:31] [INFO] addSuccessFunction 测试用例开始执行！
+[2018-01-16 17:52:31] [INFO] 开始输入登录信息
+[2018-01-16 17:52:31] [INFO] 输入：[18817715180] 到 [By.id: username]
+[2018-01-16 17:52:31] [INFO] 输入：[666] 到 [By.id: password]
+[2018-01-16 17:52:31] [INFO] 输入登录信息完毕
+[2018-01-16 17:52:31] [INFO] 点击元素 [By.xpath: //span[contains(.,'登 录')]]
+[2018-01-16 17:52:33] [INFO] 打开测试页面:[http://192.168.16.217:9999/#/health_collection/service_plan_manage?_k=6pvc68]
+[2018-01-16 17:52:33] [INFO] 开始输入新增服务信息
+[2018-01-16 17:52:34] [WARN] By.xpath: //span[contains(.,'新增服务')] is unclickable, try again
+[2018-01-16 17:52:34] [WARN] By.xpath: //span[contains(.,'新增服务')] is unclickable, try again
+[2018-01-16 17:52:35] [WARN] By.xpath: //span[contains(.,'新增服务')] is unclickable, try again
+[2018-01-16 17:52:35] [WARN] By.xpath: //span[contains(.,'新增服务')] is unclickable, try again
+[2018-01-16 17:52:36] [WARN] By.xpath: //span[contains(.,'新增服务')] is unclickable, try again
+[2018-01-16 17:52:36] [WARN] By.xpath: //span[contains(.,'新增服务')] is unclickable
+[2018-01-16 17:52:36] [ERROR] Failed to click element [By.xpath: //span[contains(.,'新增服务')]]
+[2018-01-16 17:52:36] [INFO] Retry for： [addSuccessFunction] on class [com.fuyoujiankang.test.testcases.serviceManagement.ServiceManagementPage_001_AddSuccessFunction_Test] retry 1 times
+[2018-01-16 17:52:36] [WARN] addSuccessFunction 测试用例由于某些原因被跳过！
+[2018-01-16 17:52:36] [INFO] [2018_01_16_17_52_36_addSuccessFunction] 截图成功，保存在：[ result/screenshot/2018_01_16_17_52_36_addSuccessFunction.jpg ]
+[2018-01-16 17:52:36] [INFO] addSuccessFunction 测试用例开始执行！
+[2018-01-16 17:52:36] [INFO] 开始输入登录信息
+[2018-01-16 17:52:36] [ERROR] 输入 [18817715180] 到 元素[By.id: username]失败
+[2018-01-16 17:52:36] [WARN] addSuccessFunction 测试用例执行失败！
+[2018-01-16 17:52:37] [INFO] [2018_01_16_17_52_36_addSuccessFunction] 截图成功，保存在：[ result/screenshot/2018_01_16_17_52_36_addSuccessFunction.jpg ]
+[2018-01-16 17:52:37] [INFO] 被跳过的用例 = addSuccessFunction
+[2018-01-16 17:52:37] [INFO] 执行失败的用例 = addSuccessFunction
+[2018-01-16 17:52:37] [INFO] 移除重复失败的用例 = addSuccessFunction

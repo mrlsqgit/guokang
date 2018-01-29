@@ -2,10 +2,8 @@ package com.fuyoujiankang.test.testcases.knowledgeManagement;
 
 import com.fuyoujiankang.test.base.BasePrepare;
 import com.fuyoujiankang.test.entity.KnowledgeManagementEntity;
-import com.fuyoujiankang.test.entity.ServiceManagementEntity;
 import com.fuyoujiankang.test.pageshelper.KnowledgeManagementPageHelper;
 import com.fuyoujiankang.test.pageshelper.LoginPageHelper;
-import com.fuyoujiankang.test.pageshelper.ServiceManagementPageHelper;
 import org.testng.annotations.Test;
 
 import java.util.Map;
@@ -28,9 +26,9 @@ public class KnowledgeManagementPage_001_AddSuccessFunction_Test extends BasePre
 		seleniumUtil.pause(1500);
 		// 打开服务管理url
 		if (website == str[0]){
-			seleniumUtil.get(uat_serviceManagerUrl);
+			seleniumUtil.get(uat_knowledgeManagerUrl);
 		}else if (website == str[1]){
-			seleniumUtil.get(pre_serviceManagerUrl);
+			seleniumUtil.get(uat_knowledgeManagerUrl);
 		}
 		KnowledgeManagementPageHelper.addKnowledge(seleniumUtil,getKnowledge(data));
 	}
@@ -55,12 +53,13 @@ public class KnowledgeManagementPage_001_AddSuccessFunction_Test extends BasePre
         knowledge.setSubtitle(data.get("SUBTITLE"));
         knowledge.setListImage(data.get("LISTIMAGE"));
         knowledge.setShareImage(data.get("SHAREIMAGE"));
+        knowledge.setHeadImage(data.get("HEADIMAGE"));
         knowledge.setContentDetail(data.get("CONTENTDETAIL"));
         knowledge.setGraphicDetail(data.get("GRAPHICDETAILS"));
         knowledge.setShareTitle(data.get("SHARETITLE"));
         knowledge.setShareContent(data.get("SHARECONTENT"));
         knowledge.setShareNum(data.get("SHARENUM"));
-        knowledge.setCollectionNum(data.get("COLLECTIONNUM"));
+        knowledge.setFavoriteBaseNum(data.get("FAVORITEBASENUM"));
         knowledge.setPv(data.get("PV"));
         knowledge.setSource(data.get("SOURCE"));
         knowledge.setSourceLink(data.get("SOURCELINK"));

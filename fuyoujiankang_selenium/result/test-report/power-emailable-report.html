@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">fuyoujiankang</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">19.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th><th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">fuyoujiankang &#8212; skipped</th></tr>
+<tr class="skippedodd"><td>com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test</td><td><a href="#m1263729780"><b>addSuccessFunction</b>  </a></td><td>unknown</td><td class="numi">1</td><td></td><td>{NUM=100, CONFIGURATION=生活中，很多人无法克制自己的负面情绪，不仅让同事朋友感觉难以相处，也让家人不知所措，甚至深受伤害。
+
+其实，在很大程度上，这并不是他们自己的错，很可能是因为饮食中存在某些缺陷和不足。用饮食调节情绪，也是科学的饮食之道。
+
+全身负能量，因为缺了钙和镁, SHARECONTENT=分享内容：麻雀虽小五脏俱全, SUBTITLE=我是套餐副标题, SMALLIMAGE=C:\\Users\\admin\\Desktop\\image\\300X300.png, COMBOPRICE=1, PASSWORD=666, BUYNOTES=我是购买须知我是购买须知我是购买须知, LISTIMAGE=C:\\Users\\admin\\Desktop\\image\\400X300.png, USERNAME=18817715180, TITLE=我是套餐, BANNERIMAGE=C:\\Users\\admin\\Desktop\\image\\1080px576px.jpg, REMARK=我是备注我是备注我是备注} </td><td>1512022649475</td><td class="numi">208</td></tr>
+</table>
+<h1>fuyoujiankang</h1>
+<h2 id="m1263729780" name="m1263729780" >com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test:addSuccessFunction</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{NUM=100, CONFIGURATION=生活中，很多人无法克制自己的负面情绪，不仅让同事朋友感觉难以相处，也让家人不知所措，甚至深受伤害。
+
+其实，在很大程度上，这并不是他们自己的错，很可能是因为饮食中存在某些缺陷和不足。用饮食调节情绪，也是科学的饮食之道。
+
+全身负能量，因为缺了钙和镁, SHARECONTENT=分享内容：麻雀虽小五脏俱全, SUBTITLE=我是套餐副标题, SMALLIMAGE=C:\\Users\\admin\\Desktop\\image\\300X300.png, COMBOPRICE=1, PASSWORD=666, BUYNOTES=我是购买须知我是购买须知我是购买须知, LISTIMAGE=C:\\Users\\admin\\Desktop\\image\\400X300.png, USERNAME=18817715180, TITLE=我是套餐, BANNERIMAGE=C:\\Users\\admin\\Desktop\\image\\1080px576px.jpg, REMARK=我是备注我是备注我是备注}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+RunCount=2<br/>
+result/screenshot/2017_11_30_14_17_29_addSuccessFunction.jpg<br/>
+<img src="../../result/screenshot/2017_11_30_14_17_29_addSuccessFunction.jpg"/><br/>
+result/screenshot/2017_11_30_14_17_30_addSuccessFunction.jpg<br/>
+<img src="../../result/screenshot/2017_11_30_14_17_30_addSuccessFunction.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: 输入 [18817715180] 到 元素[By.id: username]失败
+	at com.fuyoujiankang.test.utils.SeleniumUtil.type(SeleniumUtil.java:168)
+	at com.fuyoujiankang.test.pageshelper.LoginPageHelper.typeHospitalLoginInfo(LoginPageHelper.java:26)
+	at com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test.addSuccessFunction(ComboPage_002_AddSuccessFunction_Test.java:24)
+... Removed 25 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

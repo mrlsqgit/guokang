@@ -1,0 +1,54 @@
+[2017-12-15 13:54:46] [INFO] 当前操作系统是:[Windows 10]
+[2017-12-15 13:54:46] [INFO] 启动测试浏览器：[chrome]
+[2017-12-15 13:54:51] [INFO] 最大化浏览器:chrome
+[2017-12-15 13:54:55] [INFO] 打开测试页面:[http://192.168.16.217:9999]
+[2017-12-15 13:54:56] [INFO] addSuccessFunction 测试用例开始执行！
+[2017-12-15 13:54:56] [INFO] 开始输入登录信息
+[2017-12-15 13:54:57] [INFO] 输入：[18817715180] 到 [By.id: username]
+[2017-12-15 13:54:57] [INFO] 输入：[666] 到 [By.id: password]
+[2017-12-15 13:54:57] [INFO] 输入登录信息完毕
+[2017-12-15 13:54:57] [INFO] 点击元素 [By.xpath: //span[contains(.,'登 录')]]
+[2017-12-15 13:55:00] [INFO] 打开测试页面:[http://192.168.16.217:9999/#/health_collection/service_plan_manage?_k=6pvc68]
+[2017-12-15 13:55:00] [INFO] 开始输入套餐信息
+[2017-12-15 13:55:01] [INFO] 点击元素 [By.xpath: //span[contains(.,'新增套餐')]]
+[2017-12-15 13:55:01] [INFO] 输入：[我是套餐282] 到 [By.id: title]
+[2017-12-15 13:55:01] [INFO] 输入：[我是套餐副标题] 到 [By.id: subTitle]
+[2017-12-15 13:55:02] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[2]/div[1]/div[3]/div/div[2]/div/span/span/ul]
+[2017-12-15 13:55:02] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[5]/div/div/div/ul/li[1]/span[2]/span]
+[2017-12-15 13:55:02] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[2]/div[1]/div[4]/div/div[2]/div/span/span/ul]
+[2017-12-15 13:55:03] [WARN] By.xpath: //*[@id='combo']/div[6]/div/div/div/ul/li[1]/span[2] is unclickable, try again
+[2017-12-15 13:55:03] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[6]/div/div/div/ul/li[1]/span[2]]
+[2017-12-15 13:55:03] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[2]/div[1]/div[5]/div/div[2]/div/span/span/ul]
+[2017-12-15 13:55:03] [WARN] By.xpath: //*[@id='combo']/div[7]/div/div/div/ul/li[11]/span[2] is unclickable, try again
+[2017-12-15 13:55:04] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[7]/div/div/div/ul/li[11]/span[2]]
+[2017-12-15 13:55:04] [INFO] 点击元素 [By.id: departmentId]
+[2017-12-15 13:55:04] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[8]/div/div/div/ul[1]/li[1]]
+[2017-12-15 13:55:04] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[2]/div[1]/div[7]/div/div[2]/div/div/label[1]/span[1]/input]
+[2017-12-15 13:55:04] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[2]/div[1]/div[8]/div/div[2]/div/span/div/input]
+[2017-12-15 13:55:05] [INFO] 输入：[2018-01-04 13:55:00] 到 [By.xpath: //*[@id='combo']/div[2]/div[1]/div[8]/div/div[2]/div/span/div/input]
+[2017-12-15 13:55:05] [INFO] 输入：[C:\\Users\\admin\\Desktop\\image\\400X300.png] 到 [By.xpath: //*[@id='majorImage']/span/div[2]/span/input]
+[2017-12-15 13:55:05] [INFO] 点击元素 [By.xpath: //span[contains(.,'下一步')]]
+[2017-12-15 13:55:06] [INFO] 输入：[C:\\Users\\admin\\Desktop\\image\\1080px576px.jpg] 到 [By.xpath: //*[@id='images']/span/div[2]/span/input]
+[2017-12-15 13:55:06] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[3]/div[2]/div[2]/div/div/div/div]
+[2017-12-15 13:55:06] [INFO] 点击元素 [By.xpath: //li[contains(.,'促销优惠')]]
+[2017-12-15 13:55:06] [INFO] 点击元素 [By.xpath: //span[contains(.,'+添加服务')]]
+[2017-12-15 13:55:07] [WARN] By.xpath: /html/body/div[3]/div/div[2]/div/div[1]/div[2]/div/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/div/label/span[1] is unclickable, try again
+[2017-12-15 13:55:07] [INFO] 点击元素 [By.xpath: /html/body/div[3]/div/div[2]/div/div[1]/div[2]/div/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/div/label/span[1]]
+[2017-12-15 13:55:07] [INFO] 点击元素 [By.xpath: //span[contains(.,'添 加')]]
+[2017-12-15 13:55:08] [INFO] 输入：[1] 到 [By.xpath: //*[@id='combo']/div[3]/div[4]/div[2]/div/div/div/div/div/table/tbody/tr/td[4]/div/div[2]/input]
+[2017-12-15 13:55:08] [INFO] 输入：[100] 到 [By.xpath: //*[@id='combo']/div[3]/div[4]/div[2]/div/div/div/div/div/table/tbody/tr/td[5]/div/div[2]/input]
+[2017-12-15 13:55:08] [INFO] 输入：[我是购买须知我是购买须知我是购买须知] 到 [By.id: purchaseNote]
+[2017-12-15 13:55:08] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[3]/div[5]/div[4]/div/div[2]/div/div/label[1]/span[1]/input]
+[2017-12-15 13:55:10] [INFO] 输入：[生活中，很多人无法克制自己的负面情绪，不仅让同事朋友感觉难以相处，也让家人不知所措，甚至深受伤害。
+
+其实，在很大程度上，这并不是他们自己的错，很可能是因为饮食中存在某些缺陷和不足。用饮食调节情绪，也是科学的饮食之道。
+
+全身负能量，因为缺了钙和镁] 到 [By.id: editor-trigger2]
+[2017-12-15 13:55:10] [INFO] 输入：[我是备注我是备注我是备注] 到 [By.id: remark]
+[2017-12-15 13:55:10] [INFO] 点击元素 [By.xpath: //*[@id='combo']/div[3]/div[8]/button[2]/span]
+[2017-12-15 13:55:11] [INFO] 输入：[C:\\Users\\admin\\Desktop\\image\\300X300.png] 到 [By.xpath: //*[@id='avatar']/span/div[2]/span/input]
+[2017-12-15 13:55:11] [INFO] 输入：[分享内容：麻雀虽小五脏俱全] 到 [By.id: shareContent]
+[2017-12-15 13:55:11] [INFO] 点击元素 [By.xpath: //span[contains(.,'创建套餐')]]
+[2017-12-15 13:55:11] [INFO] 输入套餐信息完毕
+[2017-12-15 13:55:11] [INFO] addSuccessFunction 测试用例执行成功！
+[2017-12-15 13:55:11] [INFO] 执行成功的用例 = addSuccessFunction

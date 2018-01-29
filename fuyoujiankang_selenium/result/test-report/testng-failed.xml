@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [fuyoujiankang_selenium]">
+  <parameter name="uat_serviceManagerUrl" value="http://192.168.16.217:9999/#/health_collection/service_plan_manage?_k=6pvc68"/>
+  <parameter name="pre_serviceManagerUrl" value="http://pre.hws.fuyoujiankang.com/#/health_collection/service_plan_manage?_k=7a5u0s"/>
+  <parameter name="pre_hospitalLoginUrl" value="http://pre.hws.fuyoujiankang.com"/>
+  <parameter name="driverConfgFilePath" value="config/driver.properties"/>
+  <parameter name="uat_hospitalLoginUrl" value="http://192.168.16.217:9999"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="sleepTime" value="800"/>
+  <parameter name="waitMillisecondsForAlert" value="40000"/>
+  <parameter name="timeOut" value="30"/>
+  <listeners>
+    <listener class-name="com.fuyoujiankang.test.plugins.arrow.TestResultListener"/>
+    <listener class-name="com.fuyoujiankang.test.plugins.arrow.RetryListener"/>
+    <listener class-name="com.fuyoujiankang.test.plugins.arrow.PowerEmailableReporter"/>
+  </listeners>
+  <test name="fuyoujiankang">
+    <classes>
+      <class name="com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test"/>
+    </classes>
+  </test> <!-- fuyoujiankang -->
+  <test name="fuyoujiankang(failed)">
+    <classes>
+      <class name="com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test">
+        <methods>
+          <include name="addSuccessFunction" invocation-numbers="0 0"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test -->
+    </classes>
+  </test> <!-- fuyoujiankang(failed) -->
+</suite> <!-- Failed suite [fuyoujiankang_selenium] -->

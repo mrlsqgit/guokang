@@ -22,8 +22,7 @@ public class KnowledgeManagementPageHelper {
 	/**
 	 * @author Jone
 	 * @description 新增知识页面操作封装
-	 * @param seleniumUtil
-	 *            selenium api封装引用对象
+	 * @param seleniumUtil selenium api封装引用对象
 	 */
 	public static void addKnowledge(SeleniumUtil seleniumUtil, KnowledgeManagementEntity knowledge) {
 		logger.info("开始输入新增知识信息");
@@ -53,26 +52,29 @@ public class KnowledgeManagementPageHelper {
 		//获取后台类目checkbox的总数
 		List<WebElement> types = seleniumUtil.findElementsBy(KnowledgeManagementPage.KP_CHECKBOX_TYPE);
 		// 选择后台类目
-		seleniumUtil.click(types.get(types.size()-1));
+		seleniumUtil.click(types.get(1));
 		// 点击受众人群
 		seleniumUtil.click(KnowledgeManagementPage.KP_SELECT_TARGETUSER);
 		//获取受众人群checkbox的总数
 		List<WebElement> targetusers  = seleniumUtil.findElementsBy(KnowledgeManagementPage.KP_CHECKBOX_TARGETUSER);
 		// 选择受众人群
 		seleniumUtil.click(targetusers.get(targetusers.size()-1));
-		//点击学科
+		//点击学科关闭受众人群选择层
+        seleniumUtil.click(KnowledgeManagementPage.KP_LABEL_SUBJECT);
 		seleniumUtil.click(KnowledgeManagementPage.KP_UL_SUBJECT);
 		//获取学科checkbox的总数
 		List<WebElement> subjects  = seleniumUtil.findElementsBy(KnowledgeManagementPage.KP_CHECKBOX_SUBJECT);
 		// 选择学科
-		seleniumUtil.click(targetusers.get(subjects.size()-1));
+		seleniumUtil.click(subjects.get(subjects.size()-2));
 		// 上传列表图
 		seleniumUtil.type(KnowledgeManagementPage.KP_INPUT_LISTIMAGE, knowledge.getListImage());
         // 上传分享图
 		seleniumUtil.type(KnowledgeManagementPage.KP_INPUT_SHAREIMAGE, knowledge.getShareImage());
         // 上传头图
 		seleniumUtil.type(KnowledgeManagementPage.KP_INPUT_HEADIMAGE, knowledge.getHeadImage());
- 		// 内容详情
+ 		//滚动页面查找内容详情文本域元素
+        seleniumUtil.scrollFindElement(KnowledgeManagementPage.KP_INPUT_CONTENTDETAIL);
+		// 内容详情
 		seleniumUtil.type(KnowledgeManagementPage.KP_INPUT_CONTENTDETAIL, knowledge.getContentDetail());
 		// 图文详情
 		seleniumUtil.type(KnowledgeManagementPage.KP_INPUT_GRAPHICDETAILS, knowledge.getGraphicDetail());
@@ -102,6 +104,8 @@ public class KnowledgeManagementPageHelper {
 		seleniumUtil.click(KnowledgeManagementPage.KP_INPUT_YES);
 		// 初始点赞数
 		seleniumUtil.type(KnowledgeManagementPage.KP_INPUT_BASENUM,knowledge.getInitialNum());
+        //滑动页面查找相关推荐下拉框元素
+        seleniumUtil.scrollFindElement(KnowledgeManagementPage.KP_DIV_HEALTHHUI);
         //相关推荐
 		seleniumUtil.click(KnowledgeManagementPage.KP_DIV_HEALTHHUI);
 		seleniumUtil.click(KnowledgeManagementPage.KP_LI_HEALTHHUI);   //选择健康汇
@@ -111,8 +115,8 @@ public class KnowledgeManagementPageHelper {
 		seleniumUtil.type(KnowledgeManagementPage.KP_INPUT_BANNER, knowledge.getBannerImage());
 		// 输入备注
 		seleniumUtil.type(KnowledgeManagementPage.KP_TEXTAREA_REMARK, knowledge.getRemark());
-		//点击保存
-		// seleniumUtil.click(KnowledgeManagementPage.KP_BUTTON_SAVE);
+		// 点击保存
+        seleniumUtil.click(KnowledgeManagementPage.KP_BUTTON_SAVE);
 		logger.info("输入新增知识完毕");
 	}
 }

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[RunCount=2]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_11_30_14_17_29_addSuccessFunction.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_11_30_14_17_29_addSuccessFunction.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_11_30_14_17_30_addSuccessFunction.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_11_30_14_17_30_addSuccessFunction.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_11_30_14_17_30_addSuccessFunction.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_11_30_14_17_30_addSuccessFunction.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_11_30_14_17_31_addSuccessFunction.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_11_30_14_17_31_addSuccessFunction.jpg"/>]]>
+    </line>
+  </reporter-output>
+  <suite name="fuyoujiankang_selenium" duration-ms="19779" started-at="2017-11-30T06:17:11Z" finished-at="2017-11-30T06:17:31Z">
+    <groups>
+    </groups>
+    <test name="fuyoujiankang" duration-ms="19779" started-at="2017-11-30T06:17:11Z" finished-at="2017-11-30T06:17:31Z">
+      <class name="com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test@53f65459]" name="startTest" is-config="true" duration-ms="14073" started-at="2017-11-30T14:17:11Z" finished-at="2017-11-30T14:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23bff419]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="SKIP" signature="addSuccessFunction(java.util.Map)[pri:0, instance:com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test@53f65459]" name="addSuccessFunction" duration-ms="208" started-at="2017-11-30T14:17:29Z" data-provider="testData" finished-at="2017-11-30T14:17:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NUM=100, CONFIGURATION=生活中，很多人无法克制自己的负面情绪，不仅让同事朋友感觉难以相处，也让家人不知所措，甚至深受伤害。
+
+其实，在很大程度上，这并不是他们自己的错，很可能是因为饮食中存在某些缺陷和不足。用饮食调节情绪，也是科学的饮食之道。
+
+全身负能量，因为缺了钙和镁, SHARECONTENT=分享内容：麻雀虽小五脏俱全, SUBTITLE=我是套餐副标题, SMALLIMAGE=C:\\Users\\admin\\Desktop\\image\\300X300.png, COMBOPRICE=1, PASSWORD=666, BUYNOTES=我是购买须知我是购买须知我是购买须知, LISTIMAGE=C:\\Users\\admin\\Desktop\\image\\400X300.png, USERNAME=18817715180, TITLE=我是套餐, BANNERIMAGE=C:\\Users\\admin\\Desktop\\image\\1080px576px.jpg, REMARK=我是备注我是备注我是备注}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[输入 [18817715180] 到 元素[By.id: username]失败]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 输入 [18817715180] 到 元素[By.id: username]失败
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.fuyoujiankang.test.utils.SeleniumUtil.type(SeleniumUtil.java:168)
+	at com.fuyoujiankang.test.pageshelper.LoginPageHelper.typeHospitalLoginInfo(LoginPageHelper.java:26)
+	at com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test.addSuccessFunction(ComboPage_002_AddSuccessFunction_Test.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=2]]>
+            </line>
+            <line>
+              <![CDATA[result/screenshot/2017_11_30_14_17_29_addSuccessFunction.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_11_30_14_17_29_addSuccessFunction.jpg"/>]]>
+            </line>
+            <line>
+              <![CDATA[result/screenshot/2017_11_30_14_17_30_addSuccessFunction.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_11_30_14_17_30_addSuccessFunction.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addSuccessFunction -->
+      </class> <!-- com.fuyoujiankang.test.testcases.serviceManagement.ComboPage_002_AddSuccessFunction_Test -->
+    </test> <!-- fuyoujiankang -->
+  </suite> <!-- fuyoujiankang_selenium -->
+</testng-results>
