@@ -4,6 +4,7 @@
 	<!-- chrome,firefox,ghost和ie不区分大小写 -->
 	<parameter name="browserName" value="chrome" />
 	<!-- driver的属性配置文件保存路径 -->
+	<!--<parameter name="driverConfgFilePath" value="config/driver.properties" />-->
 	<parameter name="driverConfgFilePath" value="config/driver.properties" />
 
     <!-- uat -->
