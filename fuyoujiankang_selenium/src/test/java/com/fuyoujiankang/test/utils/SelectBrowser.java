@@ -63,7 +63,6 @@ public class SelectBrowser {
 			}
 
 		} else if (currentPlatform.toLowerCase().contains("linux")) { //如果是linux平台
-
 			if (browser.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver", chromedriver_linux);
 				return new ChromeDriver();
@@ -73,7 +72,6 @@ public class SelectBrowser {
 				logger.error("The [" + browser + "]" + " explorer does not apply to  [" + currentPlatform + "] OS");
 				Assert.fail("The [" + browser + "]" + " explorer does not apply to  [" + currentPlatform + "] OS");
 			}
-
 		} else if (currentPlatform.toLowerCase().contains("mac")) { //如果是mac平台
 			if (browser.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver", chromedriver_mac);
