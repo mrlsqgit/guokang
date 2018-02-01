@@ -64,9 +64,9 @@ public class SelectBrowser {
 
 		} else if (currentPlatform.toLowerCase().contains("linux")) { //如果是linux平台
 			if (browser.equalsIgnoreCase("chrome")) {
-//				String path = System.getProperty("user.dir");
-				//String path = "/var/lib/jenkins/workspace/selenium_test/fuyoujiankang_selenium/";
 //				System.setProperty("webdriver.chrome.driver",  chromedriver_linux);
+                //设置chromedriver在linux中的绝对路径   要在/usr/bin目录执行   sudo chmod a+x chromedriver
+                //给chromedriver设置执行权限
                 System.setProperty("webdriver.chrome.driver",  "/usr/bin/chromedriver");
 				return new ChromeDriver();
 			} else if (browser.equalsIgnoreCase("firefox")) {
