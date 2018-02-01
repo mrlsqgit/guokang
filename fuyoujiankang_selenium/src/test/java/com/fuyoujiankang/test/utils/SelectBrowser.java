@@ -65,7 +65,8 @@ public class SelectBrowser {
 		} else if (currentPlatform.toLowerCase().contains("linux")) { //如果是linux平台
 			if (browser.equalsIgnoreCase("chrome")) {
 				//获取当前项目的路径
-				String path = System.getProperty("user.dir");
+//				String path = System.getProperty("user.dir");
+				String path = "/var/lib/jenkins/workspace/selenium_test/fuyoujiankang_selenium/";
 				System.setProperty("webdriver.chrome.driver", path + chromedriver_linux);
 				return new ChromeDriver();
 			} else if (browser.equalsIgnoreCase("firefox")) {
