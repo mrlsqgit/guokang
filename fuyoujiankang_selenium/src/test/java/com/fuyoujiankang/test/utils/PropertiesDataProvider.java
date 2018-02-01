@@ -5,7 +5,7 @@ import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
 
 /**
- * @author young
+ * @author jone
  * @Desription 从.properties文件中读取相关测试数据<br>
  * 
  * */
