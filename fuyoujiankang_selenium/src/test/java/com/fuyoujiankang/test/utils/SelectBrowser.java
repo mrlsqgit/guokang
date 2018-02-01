@@ -66,7 +66,8 @@ public class SelectBrowser {
 			if (browser.equalsIgnoreCase("chrome")) {
 //				String path = System.getProperty("user.dir");
 				//String path = "/var/lib/jenkins/workspace/selenium_test/fuyoujiankang_selenium/";
-				System.setProperty("webdriver.chrome.driver",  chromedriver_linux);
+//				System.setProperty("webdriver.chrome.driver",  chromedriver_linux);
+                System.setProperty("webdriver.chrome.driver",  "./bin/chromedriver");
 				return new ChromeDriver();
 			} else if (browser.equalsIgnoreCase("firefox")) {
 				return new FirefoxDriver();
