@@ -64,7 +64,9 @@ public class SelectBrowser {
 
 		} else if (currentPlatform.toLowerCase().contains("linux")) { //如果是linux平台
 			if (browser.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", chromedriver_linux);
+				//获取当前项目的路径
+				String path = System.getProperty("user.dir");
+				System.setProperty("webdriver.chrome.driver", path + chromedriver_linux);
 				return new ChromeDriver();
 			} else if (browser.equalsIgnoreCase("firefox")) {
 				return new FirefoxDriver();
@@ -82,9 +84,10 @@ public class SelectBrowser {
 				logger.error("The [" + browser + "]" + " explorer does not apply to  [" + currentPlatform + "] OS");
 				Assert.fail("The [" + browser + "]" + " explorer does not apply to  [" + currentPlatform + "] OS");
 			}
-		} else
-			logger.error("The [" + currentPlatform + "] is not supported for this automation frame,please change the OS(Windows,MAC or LINUX)");
-		Assert.fail("The [" + currentPlatform + "] is not supported for this automation frame,please change the OS(Windows,MAC or LINUX)");
-		return null;
+		} else {
+            logger.error("The [" + currentPlatform + "] is not supported for this automation frame,please change the OS(Windows,MAC or LINUX)");
+            Assert.fail("The [" + currentPlatform + "] is not supported for this automation frame,please change the OS(Windows,MAC or LINUX)");
+		}
+            return null;
 	}
 }
