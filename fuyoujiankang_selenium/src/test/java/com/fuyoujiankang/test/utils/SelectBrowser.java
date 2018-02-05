@@ -68,6 +68,12 @@ public class SelectBrowser {
                 //设置chromedriver在linux中的绝对路径   要在/usr/bin目录执行   sudo chmod a+x chromedriver
                 //给chromedriver设置执行权限
                 System.setProperty("webdriver.chrome.driver",  "/usr/bin/chromedriver");
+				ChromeOptions chromeOptions = new ChromeOptions();
+				//设置为 headless 模式 （必须）
+				chromeOptions.addArguments("--headless");
+				//设置浏览器窗口打开大小  （非必须）
+				chromeOptions.addArguments("--window-size=1920,1080");
+				WebDriver driver = new ChromeDriver(chromeOptions);
 				return new ChromeDriver();
 			} else if (browser.equalsIgnoreCase("firefox")) {
 				return new FirefoxDriver();
