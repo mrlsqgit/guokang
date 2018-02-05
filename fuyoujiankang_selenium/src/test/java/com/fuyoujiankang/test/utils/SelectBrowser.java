@@ -73,8 +73,7 @@ public class SelectBrowser {
 				chromeOptions.addArguments("--headless");
 				//设置浏览器窗口打开大小  （非必须）
 				chromeOptions.addArguments("--window-size=1920,1080");
-				WebDriver driver = new ChromeDriver(chromeOptions);
-				return new ChromeDriver();
+				return new ChromeDriver(chromeOptions);
 			} else if (browser.equalsIgnoreCase("firefox")) {
 				return new FirefoxDriver();
 			} else {
